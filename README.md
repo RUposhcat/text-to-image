@@ -14,7 +14,8 @@ To use image_creator_dis.py, You need to first create a discord bot using the di
 
 You then need to open the image_creator_dis.py and replace the text 'add your bot token here' with the bot token.
 ![image](https://github.com/user-attachments/assets/1bb20f06-ee33-4b04-92b0-2f5d47deb195)
-
+The discord.py module must also be installed, this can be done using this command in a terminal
+```pip install discord.py```
 After Inviting the bot to the discord server in which the channel you want to convert lies, run the command
 ```?create_image (channel_id*)```
 
