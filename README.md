@@ -5,15 +5,20 @@ They do not make an image of the letters, but each letter in the text will be tu
 **HOW TO USE**
 
 To use image_creator_text.py, Firstly install the pillow module by running the command:
+
 ```pip install pillow```
+
 You can then run it using an IDE like IDLE that comes preinstalled with python (or any prefered IDE), and pasting the path of the text file you want to convert into the prompt given (in the IDE's terminal)
 The image will be created in the same folder as the python file with the name of the text file.
 
 To use image_creator_dis.py, You need to first create a discord bot using the discord developer portal, after setting up the bot, you need to get the bot token from the discord developer portal (pictured below).
+
 ![image](https://github.com/user-attachments/assets/3d266139-3ca2-4439-885a-ac280c04dc5d)
 
 You then need to open the image_creator_dis.py and replace the text 'add your bot token here' with the bot token.
+
 ![image](https://github.com/user-attachments/assets/1bb20f06-ee33-4b04-92b0-2f5d47deb195)
+
 The discord.py module must also be installed, this can be done using this command in a terminal
 
 ```pip install discord.py```
