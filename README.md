@@ -21,4 +21,5 @@ After Inviting the bot to the discord server in which the channel you want to co
 The channel_id argument is not required because if it is not provided, the bot will just take the messages from the channel the command was ran.
 
 **Last important notice**
+
 The discord bot needs admin as it needs access to the chat history.
