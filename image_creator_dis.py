@@ -9,9 +9,12 @@ bot = commands.Bot(command_prefix='?', intents=discord.Intents.all())
 
 
 @bot.command()
-async def create_image(ctx, channel):
+async def create_image(ctx, channel=None):
     messages_str = ""
     
+    if channel == None:
+        channel = ctx.channel.id
+
     channel = bot.get_channel(int(channel))
     file_name = channel.name + "_image.png"
     i = 1
